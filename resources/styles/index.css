@@ -1,0 +1,112 @@
+body {
+    color: black;
+}
+
+i {
+    cursor: pointer;
+    color: gray;
+}
+
+.block {
+    padding: 15px;
+}
+
+.navbar, .navbar-inner {
+    background-color: #0a2452;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.page-content-totalizador {
+    background-color: #0a2452;
+    padding: 0.8rem;
+}
+
+.totalizador {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.apresentar-valores {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.receitas-despesas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.receitas p {
+    color: blue;
+}
+
+.despesas p {
+    color: red;
+}
+
+.receitas b, .despesas b {
+    margin-left: 1.7rem;
+    font-size: 1rem;
+}
+
+.receitas p, .despesas p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cabecalho, .titulo {
+    /* border: red solid 1px; */
+    font-size: 1rem;
+}
+
+.cartao {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.nome {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.nome p {
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+    font-style: italic;
+    color: gray;
+}
+
+.acao {
+    margin-left: 3.2rem;
+}
+
+.acao i {
+    font-size: 1.3rem;
+}
+
+.logo img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
