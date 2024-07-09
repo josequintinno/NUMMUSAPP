@@ -109,3 +109,30 @@ i {
     height: 2rem;
     border-radius: 50%;
 }
+
+/* Tamnaho da fonte do tabmenu */
+#tabmenu span {
+    font-size: 0.6rem;
+}
+
+#tabmenu .toolbar-inner .link.tab-link-active i  {
+    color: #007aff;
+}
+
+#tabmenu .toolbar-inner .link-principal {
+    position: relative;
+    top: -2px;
+}
+
+#tabmenu .toolbar-inner .link-principal i {
+    /* border: solid 1px red; */
+    font-size: 2rem;
+    background-color: #034b97;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
