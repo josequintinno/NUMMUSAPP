@@ -90,7 +90,7 @@ i {
 }
 
 .nome {
-    margin-right: 5rem;
+    margin-right: 30%;
     margin-top: 1rem;
 }
 
@@ -98,10 +98,6 @@ i {
     margin-top: 0.2rem;
     font-size: 0.7rem;
     color: gray;
-}
-
-.acao {
-    margin-left: 3.2rem;
 }
 
 .acao i {
