@@ -81,15 +81,16 @@ i {
     width: 90%;
     margin: auto;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
+    border-radius: 0.6rem;
 }
 
 .nome {
-    margin-left: 1rem;
+    margin-right: 5rem;
     margin-top: 1rem;
 }
 
